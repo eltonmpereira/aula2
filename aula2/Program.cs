@@ -6,41 +6,58 @@ namespace MeuPrimeiroTerminal
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Qual time ganhou a ultima copa?");
+            string[] times = new string[4];
+            times[0] = "brasil";
+            times[1] = "franca";
+            times[2] = "mexico";
+            times[3] = "alemanha";
+
+            for (int i = 0; i < 4; i++)
             
-            Console.WriteLine("Digite o Seu peso: ");
-            float peso = float.Parse(Console.ReadLine());
+                Console.WriteLine($"{i} - {times[i]}");          
 
-            Console.WriteLine("Digite sua altura: ");
-            float altura = float.Parse(Console.ReadLine());
+            
+            int tentativas = EhVencedor(1);
 
-           float imc = CalcularIMC (peso, altura);
-            ExibirIMC(imc);
-
-            Console.WriteLine("Seu IMC é: " + imc);
-
-            Console.ReadLine();            
-        }
-
-        private static float CalcularIMC (float altura, float peso) =>
-            peso / (altura * altura);
-        
-
-        private static void ExibirIMC (float imc)
-        {
-            if (imc <= 18.5)
-                Console.Write("Peso Abaixo do Normal");
-            else if (imc <= 25)
-                Console.WriteLine("Peso Normal");
-            else if (imc <= 30)
-                Console.WriteLine("Sobrepeso.");
-            else if (imc <= 35)
-                Console.WriteLine("Obesidade Grau 1");
-            else if (imc <= 40)
-                Console.WriteLine("Obesidade Grau 2");
+            if(tentativas == 1)
+                Console.WriteLine($"Parabens, voce acertou de primeira!");
             else
-                Console.WriteLine("Obesidade Grau 3");
+                Console.WriteLine($"Voce acertou, mas errou {tentativas} vezes");
+            Console.ReadLine();            
+
         }
 
-        
+        private static int EhVencedor(int vencedor)
+        {
+            bool acertou = false;
+            int acumulador = 0;
+            
+            while (acertou == false)
+            {
+                
+                Console.WriteLine("Digite o indice: ");
+
+                string opcaoDoUsuarioEmTexto = Console.ReadLine();
+                int opcaoDoUsuario = Convert.ToInt32(opcaoDoUsuarioEmTexto);
+
+                if (opcaoDoUsuario == vencedor)
+                {
+                    acertou = true;
+                }
+                else
+                {
+                    Console.WriteLine("Voce errou!");
+                    acumulador = acumulador + 1;
+                }
+                              
+            }
+            return acumulador;
+
+
+
+
+
+        }
     }
 }

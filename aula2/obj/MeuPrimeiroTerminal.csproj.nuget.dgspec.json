@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projectApex\\aula1\\MeuPrimeiroTerminal\\MeuPrimeiroTerminal.csproj": {}
+    "C:\\projectApex\\aula2\\aula2\\MeuPrimeiroTerminal.csproj": {}
   },
   "projects": {
-    "C:\\projectApex\\aula1\\MeuPrimeiroTerminal\\MeuPrimeiroTerminal.csproj": {
+    "C:\\projectApex\\aula2\\aula2\\MeuPrimeiroTerminal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projectApex\\aula1\\MeuPrimeiroTerminal\\MeuPrimeiroTerminal.csproj",
+        "projectUniqueName": "C:\\projectApex\\aula2\\aula2\\MeuPrimeiroTerminal.csproj",
         "projectName": "MeuPrimeiroTerminal",
-        "projectPath": "C:\\projectApex\\aula1\\MeuPrimeiroTerminal\\MeuPrimeiroTerminal.csproj",
+        "projectPath": "C:\\projectApex\\aula2\\aula2\\MeuPrimeiroTerminal.csproj",
         "packagesPath": "C:\\Users\\Elton\\.nuget\\packages\\",
-        "outputPath": "C:\\projectApex\\aula1\\MeuPrimeiroTerminal\\obj\\",
+        "outputPath": "C:\\projectApex\\aula2\\aula2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
