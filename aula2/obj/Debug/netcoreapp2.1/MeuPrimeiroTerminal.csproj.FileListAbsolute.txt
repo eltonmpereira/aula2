@@ -1,0 +1,11 @@
+C:\projectApex\aula1\MeuPrimeiroTerminal\bin\Debug\netcoreapp2.1\MeuPrimeiroTerminal.deps.json
+C:\projectApex\aula1\MeuPrimeiroTerminal\bin\Debug\netcoreapp2.1\MeuPrimeiroTerminal.runtimeconfig.json
+C:\projectApex\aula1\MeuPrimeiroTerminal\bin\Debug\netcoreapp2.1\MeuPrimeiroTerminal.runtimeconfig.dev.json
+C:\projectApex\aula1\MeuPrimeiroTerminal\bin\Debug\netcoreapp2.1\MeuPrimeiroTerminal.dll
+C:\projectApex\aula1\MeuPrimeiroTerminal\bin\Debug\netcoreapp2.1\MeuPrimeiroTerminal.pdb
+C:\projectApex\aula1\MeuPrimeiroTerminal\obj\Debug\netcoreapp2.1\MeuPrimeiroTerminal.csprojAssemblyReference.cache
+C:\projectApex\aula1\MeuPrimeiroTerminal\obj\Debug\netcoreapp2.1\MeuPrimeiroTerminal.csproj.CoreCompileInputs.cache
+C:\projectApex\aula1\MeuPrimeiroTerminal\obj\Debug\netcoreapp2.1\MeuPrimeiroTerminal.AssemblyInfoInputs.cache
+C:\projectApex\aula1\MeuPrimeiroTerminal\obj\Debug\netcoreapp2.1\MeuPrimeiroTerminal.AssemblyInfo.cs
+C:\projectApex\aula1\MeuPrimeiroTerminal\obj\Debug\netcoreapp2.1\MeuPrimeiroTerminal.dll
+C:\projectApex\aula1\MeuPrimeiroTerminal\obj\Debug\netcoreapp2.1\MeuPrimeiroTerminal.pdb
