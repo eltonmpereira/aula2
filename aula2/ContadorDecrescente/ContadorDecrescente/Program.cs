@@ -59,28 +59,32 @@ namespace ContadorDecrescente
         {
             decimal num1 = PedeNumero();
             decimal num2 = PedeNumero();
-            Console.WriteLine($"O Resultado da divisao é: {num1 / num2}");
+            decimal resultado = Calculos.Divisao(num1, num2);
+            Console.WriteLine($"O Resultado da divisao é: {resultado}");
         }
 
         private static void Multiplicacao()
         {
             decimal num1 = PedeNumero();
             decimal num2 = PedeNumero();
-            Console.WriteLine($"O Resultado da multiplicacao é: {num1 * num2}");
+            decimal resultado = Calculos.Multiplicacao(num1, num2);
+            Console.WriteLine($"O Resultado da multiplicacao é: {resultado}");
         }
 
         private static void Subtracao()
         {
             decimal num1 = PedeNumero();
             decimal num2 = PedeNumero();
-            Console.WriteLine($"O Resultado da subtracao é: {num1 - num2}");
+            decimal resultado = Calculos.Subtracao(num1, num2);
+            Console.WriteLine($"O Resultado da subtracao é: {resultado}");
         }
 
         private static void Soma()
         {
             decimal num1 = PedeNumero();
             decimal num2 = PedeNumero();
-            Console.WriteLine ($"O Resultado é: {num1 + num2}");
+            decimal resultado = Calculos.Soma(num1, num2);
+            Console.WriteLine ($"O Resultado é: {resultado}");
         }
 
         private static void Menu()
